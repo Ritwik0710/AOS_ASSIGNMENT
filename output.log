@@ -1,0 +1,471 @@
+Set matrix Size :
+9
+Set Time :
+10
+Set Commander 1 to 9 :
+1
+ok
+recieved: true
+recieved: true
+recieved: true
+recieved: true
+recieved: true
+recieved: true
+recieved: true
+recieved: true
+recieved: true
+Set Missile x, y, radius:
+0 0 0
+changes decteted 1 8 true
+changes decteted 3 8 true
+changes decteted 4 0 true
+changes decteted 7 0 true
+changes decteted 6 8 true
+changes decteted 2 1 true
+changes decteted 7 6 true
+changes decteted 4 4 true
+changes decteted 2 6 true
+000000000
+000000001
+060000900
+000000002
+300080000
+000000000
+000000005
+400000700
+000000000
+x: 1
+y: 8
+speed: 2
+hit: true
+Id: 1
+
+x: 3
+y: 8
+speed: 4
+direction: -4
+hit: true
+Id: 2
+
+x: 4
+speed: 1
+direction: 6
+hit: true
+Id: 3
+
+x: 7
+speed: 2
+direction: 5
+hit: true
+Id: 4
+
+x: 6
+y: 8
+speed: 3
+direction: 6
+hit: true
+Id: 5
+
+x: 2
+y: 1
+speed: 4
+direction: -3
+hit: true
+Id: 6
+
+x: 7
+y: 6
+speed: 3
+direction: 2
+hit: true
+Id: 7
+
+x: 4
+y: 4
+speed: 4
+direction: 1
+hit: true
+Id: 8
+
+x: 2
+y: 6
+speed: 4
+direction: 1
+hit: true
+Id: 9
+
+Set Missile x, y, radius:
+1 8 3
+changes decteted 1 8 false
+changes decteted 3 8 true
+changes decteted 4 0 true
+changes decteted 7 0 true
+changes decteted 6 8 true
+changes decteted 2 1 true
+changes decteted 7 6 true
+changes decteted 4 4 true
+changes decteted 2 6 true
+changes decteted 1 8 false
+changes decteted 0 8 true
+changes decteted 4 0 true
+changes decteted 7 0 true
+changes decteted 6 8 true
+changes decteted 2 1 true
+changes decteted 7 6 true
+changes decteted 4 4 true
+changes decteted 0 6 true
+000000902
+000000000
+060000900
+000000002
+300080000
+000000000
+000000005
+400000700
+000000000
+x: 1
+y: 8
+speed: 2
+Id: 1
+
+y: 8
+speed: 4
+direction: -4
+hit: true
+Id: 2
+
+x: 4
+speed: 1
+direction: 6
+hit: true
+Id: 3
+
+x: 7
+speed: 2
+direction: 5
+hit: true
+Id: 4
+
+x: 6
+y: 8
+speed: 3
+direction: 6
+hit: true
+Id: 5
+
+x: 2
+y: 1
+speed: 4
+direction: -3
+hit: true
+Id: 6
+
+x: 7
+y: 6
+speed: 3
+direction: 2
+hit: true
+Id: 7
+
+x: 4
+y: 4
+speed: 4
+direction: 1
+hit: true
+Id: 8
+
+y: 6
+speed: 4
+direction: 1
+hit: true
+Id: 9
+
+Set Missile x, y, radius:
+0 6 5
+changes decteted 0 8 true
+changes decteted 4 0 true
+changes decteted 7 0 true
+changes decteted 6 8 true
+changes decteted 2 1 true
+changes decteted 7 6 true
+changes decteted 4 0 true
+changes decteted 0 6 false
+000000002
+000000000
+060000000
+000000000
+800000000
+000000000
+000000005
+400000700
+000000000
+x: 1
+y: 8
+speed: 2
+Id: 1
+
+y: 8
+speed: 4
+direction: -4
+hit: true
+Id: 2
+
+x: 4
+speed: 1
+direction: 6
+hit: true
+Id: 3
+
+x: 7
+speed: 2
+direction: 5
+hit: true
+Id: 4
+
+x: 6
+y: 8
+speed: 3
+direction: 6
+hit: true
+Id: 5
+
+x: 2
+y: 1
+speed: 4
+direction: -3
+hit: true
+Id: 6
+
+x: 7
+y: 6
+speed: 3
+direction: 2
+hit: true
+Id: 7
+
+x: 4
+speed: 4
+direction: 1
+hit: true
+Id: 8
+
+y: 6
+speed: 4
+direction: 1
+Id: 9
+
+Set Missile x, y, radius:
+4 0 2
+changes decteted 0 8 true
+changes decteted 4 0 false
+changes decteted 7 0 true
+changes decteted 6 8 true
+changes decteted 2 0 true
+changes decteted 7 6 true
+changes decteted 4 0 true
+changes decteted 0 6 false
+000000002
+000000000
+600000000
+000000000
+800000000
+000000000
+000000005
+400000700
+000000000
+x: 1
+y: 8
+speed: 2
+Id: 1
+
+y: 8
+speed: 4
+direction: -4
+hit: true
+Id: 2
+
+x: 4
+speed: 1
+direction: 6
+Id: 3
+
+x: 7
+speed: 2
+direction: 5
+hit: true
+Id: 4
+
+x: 6
+y: 8
+speed: 3
+direction: 6
+hit: true
+Id: 5
+
+x: 2
+speed: 4
+direction: -3
+hit: true
+Id: 6
+
+x: 7
+y: 6
+speed: 3
+direction: 2
+hit: true
+Id: 7
+
+x: 4
+speed: 4
+direction: 1
+hit: true
+Id: 8
+
+y: 6
+speed: 4
+direction: 1
+Id: 9
+
+Set Missile x, y, radius:
+7 6 7
+changes decteted 0 8 false
+changes decteted 4 0 false
+changes decteted 7 0 true
+changes decteted 6 8 true
+changes decteted 2 0 true
+changes decteted 7 6 true
+changes decteted 4 0 true
+changes decteted 0 6 false
+changes decteted 0 8 false
+changes decteted 7 0 false
+changes decteted 7 0 false
+changes decteted 6 8 false
+changes decteted 6 8 false
+changes decteted 2 0 true
+changes decteted 7 6 false
+changes decteted 4 0 false
+000000000
+000000000
+600000000
+000000000
+000000000
+000000000
+000000000
+000000000
+000000000
+x: 1
+y: 8
+speed: 2
+Id: 1
+
+y: 8
+speed: 4
+direction: -4
+Id: 2
+
+x: 4
+speed: 1
+direction: 6
+Id: 3
+
+x: 7
+speed: 2
+direction: 5
+Id: 4
+
+x: 6
+y: 8
+speed: 3
+direction: 6
+Id: 5
+
+x: 2
+speed: 4
+direction: -3
+hit: true
+Id: 6
+
+x: 7
+y: 6
+speed: 3
+direction: 2
+Id: 7
+
+x: 4
+speed: 4
+direction: 1
+Id: 8
+
+y: 6
+speed: 4
+direction: 1
+Id: 9
+
+Set Missile x, y, radius:
+0 6 5
+changes decteted 2 0 true
+changes decteted 7 6 false
+changes decteted 4 0 false
+000000000
+000000000
+600000000
+000000000
+000000000
+000000000
+000000000
+000000000
+000000000
+x: 1
+y: 8
+speed: 2
+Id: 1
+
+y: 8
+speed: 4
+direction: -4
+Id: 2
+
+x: 4
+speed: 1
+direction: 6
+Id: 3
+
+x: 7
+speed: 2
+direction: 5
+Id: 4
+
+x: 6
+y: 8
+speed: 3
+direction: 6
+Id: 5
+
+x: 2
+speed: 4
+direction: -3
+hit: true
+Id: 6
+
+x: 7
+y: 6
+speed: 3
+direction: 2
+Id: 7
+
+x: 4
+speed: 4
+direction: 1
+Id: 8
+
+y: 6
+speed: 4
+direction: 1
+Id: 9
+
+Set Missile x, y, radius:
+2 0 5
+changes decteted 2 0 false
+changes decteted 7 6 false
+changes decteted 4 0 false
+No Soldiers left,Game Over!!!

@@ -1,0 +1,83 @@
+syntax = "proto3";
+
+option java_package = "com.java.stubs";
+
+service InterfaceService{
+
+	rpc input_broadcast(UserInput) returns (Broadcast_Alert_recieved);
+
+	rpc missile_info(Empty) returns (MissileAlert);
+
+	rpc print_layout(Empty) returns (Empty);
+
+	rpc status(Soldier_Id) returns(Status);
+
+	rpc send_info(Status) returns(Empty);
+
+	rpc game_over (Empty) returns (Empty);
+
+	rpc start_commander(Empty) returns (Empty);
+
+}
+service CommanderService{
+
+ 	rpc missile_approaching_subscription(MissileAlert) returns(Status);
+
+ 	rpc commander_change(current_status) returns (Empty);
+
+
+
+
+
+
+
+}
+
+message Empty{
+}
+
+message UserInput{
+	int32 matrix =1;
+	int32 time =2;
+	int32 Commander = 3;
+}
+message MissileAlert{
+	 int32 Missile_x = 1;
+	 int32 Missile_y = 2;
+	 int32 time = 3;
+	 int32 type = 4;
+	 //map<int32,int32> soldiers = 5;
+};
+
+message Soldier_Id{
+	int32 Id =1;
+
+}
+
+message Status{
+
+	int32 x =1;
+	int32 y =2;
+	int32 speed=3;
+	int32 direction = 4;
+	bool hit = 5;
+	int32 Id =6;
+}
+message Broadcast_Alert_recieved{
+	bool recieved = 1;
+}
+message current_status{
+	Status  previous = 1;
+	int32 timeLeft =2;
+	MissileAlert missile = 3;
+}
+message dead_or_alive{
+	bool hit =1;
+}
+message print{
+	int32 x = 1;
+	int32 y = 2;
+	int32 dead = 3;
+}
+
+
